@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 150%;
+   display: block;
+   background-image: url('images/f.jpg');
+   background-repeat: no-repeat;
+    background-size:100% 200%;
+    background-position: center;
+  backdrop-filter: blur(5px);
+}
+.ddi{
+    width: 100%;
+    align-content: center;
+    display: block;
+    margin: auto;
+    text-align: center;
+    height:85vh ;
+}
+    nav{
+    width: 100%;
+    height: 10%;
+    background-color: rgb(141, 154, 255);
+   padding: 16px 32px;
+   border: solid 2px gray;
+
+    }
+.a{
+margin-right: 70%;
+}
+.a a{
+    color: #fff;
+    margin-right: auto;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.4s;
+    padding: 8px 16px;
+    border-radius: 99px;
+}
+.a a:hover{
+    background-color: blueviolet;
+    color: #000;
+}
+.oo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh ;
+    background-image: url('images/f.jpg');
+    background-repeat: no-repeat;
+    background-size:80%;
+    background-position: center;
+}
+.o{
+    width: 50%;
+    height: 80%;
+    margin: auto;
+    border-radius: 15px;
+    align-content: center;
+    background-color: rgba(26, 128, 231, 0.3) ;
+}
+h2{
+ margin-bottom: 30px;
+    font-family: cursive;
+}
+h4{
+    font-family: Georgia, serif;
+
+}
+button{
+    color: #fff;
+    border-radius: 5%;
+    background-color: orange;
+    margin-top: 20px;
+    border: none;
+    padding: 10px 15px;
+
+}
+.ooo{
+    height: 50%;
+    width: 70%;
+    margin: auto;
+    padding-top: 130px;
+}
+
+button:hover{
+    transition: 0.5s;
+    width: 151px;
+    height: 51px;
+    background-color: blueviolet;
+    color: #F2F2F2;
+    box-shadow: #F2F2F2 2px 2px 2px ;
+}
+.ccourses{
+    width:100%;
+    height: fit-content;
+    background-color: rgba(242, 242, 242, 0.44);
+    align-content: center;
+}
+.courses{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    background-color: #F2F2F2;
+    text-align: center;
+}
+.courses h1{
+    padding-top: 30px;
+    color: black;
+}
+.s{
+    color: #a86600;
+}
+.images{
+    margin: auto;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    text-align: center;
+}
+.images img{
+    width:100% ;
+    height:75%;
+}
+.image{
+    width: 28%;
+    height: 70%;
+    margin: auto;
+    display: block;
+    justify-content: space-between;
+}
+.price{
+    color:black;
+    font-family: "Arial";
+    font-weight: bolder;
+}
+.title{
+    color: gray;
+    font-family: "Arial ";
+    text-shadow: black 1px 1px 1px;
+
+}
+
+.ccourses button{
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.p{
+    margin-top: 10px;
+    color: grey;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+footer{
+    background-color: #e5e5e5;
+   border: solid 2px gray;
+   padding: 5px;
+    text-align: center;
+    margin-top: 25px;
+}
